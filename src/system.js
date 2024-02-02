@@ -39,7 +39,7 @@ cmd({
             let buttonMessaged = {
                 image: { url: 'https://secktorbot.onrender.com/' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
-                footer: ` Session bY >> Tᴇᴀᴍ Xʟɪᴄᴏɴ`,
+                footer: ` Session bY >> 𝗭𝗔𝗛𝗥𝗘𝗘𝗟𝗔-𝗠𝗗`,
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
@@ -48,7 +48,7 @@ cmd({
                         thumbnail: log0,
                         mediaType: 2,
                         mediaUrl: `https://camo.githubusercontent.com/f026740d43de526846892cc5e38ef882f5fb484f2735e69e3659a8370ae638a8/68747470733a2f2f74656c656772612e70682f66696c652f3363333431383238643836656537613839633733662e6a7067`,
-                        sourceUrl: `WWW.YOUTUBE.COM/c/infinite9452`,
+                        sourceUrl: `WWW.YOUTUBE.COM/c/mhmodsofc`,
                     },
 
                 },
@@ -200,7 +200,7 @@ cmd({
             try 
             {
                 let users = citel.quoted ? citel.quoted.sender : citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
-                if (!users) return citel.reply(`❌ Please mention any user ${tlang().greet}.`)
+                if (!users) return citel.reply(`Please mention any user ${tlang().greet}.`)
                 let pushnamer = Void.getName(users);
                 sck1.findOne({ id: users }).then(async(usr) => 
                 {
@@ -342,7 +342,7 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SALMAN AHMAD.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*𝗭𝗔𝗛𝗥𝗘𝗘𝗟𝗔-𝗠𝗗 A WHATSAPP USER BOT POWERED BY 𝗭𝗔𝗛𝗥𝗘𝗘𝗟𝗔-𝗝𝗔𝗡𝗪𝗔𝗥.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
