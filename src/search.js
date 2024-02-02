@@ -134,7 +134,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel, text) => {
-        if (!text) return citel.reply(`give me a query\n*Example : .google Who is Suhail Tech.*`);
+        if (!text) return citel.reply(`give me a query\n*Example : .google Who is ZAHREELA JANWAR ☠️.*`);
         let google = require('google-it');
         google({ 'query': text}).then(res => {
             let msg= `Google Search From : ${text} \n\n`;
@@ -195,7 +195,7 @@ cmd({
     },
     async(Void, citel, text) => {
         var inputnumber = text.split(" ")[0]
-        if (!inputnumber.includes('x')) return citel.reply('You did not add x\nExample: iswa 9196285162xx')
+        if (!inputnumber.includes('x')) return citel.reply('You did not add x\nExample: iswa 9232123217xx')
         citel.reply(`Searching for WhatsApp account in given range...`)
 
         function countInstances(string, word) {
