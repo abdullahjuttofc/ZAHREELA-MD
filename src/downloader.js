@@ -226,7 +226,7 @@ cmd({
             if (!isUrl(text.split(" ")[0]) && !text.split(" ")[0].includes("mediafire.com")) return reply(`The link you provided is invalid`);
             const baby1 = await mediafire(text);
             if (baby1[0].size.split("MB")[0] >= 999) return reply("*File Over Limit* " + util.format(baby1));
-            const result4 = `*ᴵᶻᵁᴷᵁ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
+            const result4 = `*𝚉𝙰𝙷𝚁𝙴𝙴𝙻𝙰-𝙼𝙳 Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
 *Nᴀᴍᴇ* : ${baby1[0].nama}
 *Sɪᴢᴇ* : ${baby1[0].size}
 *Mɪᴍᴇ* : ${baby1[0].mime}
@@ -291,7 +291,7 @@ cmd({
         },
 
         async(Void, citel, text) => {
- if(!text) return await citel.reply(`*Uhh Please, Provide me tiktok Video Url*\n*_Ex .tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`);
+ if(!text) return await citel.reply(`*Uhh Please, Provide me tiktok Video Url*\n*_Ex .tiktok Your video link 🔗_*`);
  let txt = text ? text.split(" ")[0]:'';
  if (!/tiktok/.test(txt)) return await citel.send(`*Uhh Please, Give me Valid Tiktok Video Url!*`);
  const { status ,thumbnail, video, audio } = await tiktokdl(txt)
@@ -313,7 +313,7 @@ cmd({
         },
 
         async(Void, citel, text) => {
-if(!text) return await citel.reply(`*Uhh Please, Provide me tiktok Video Url*\n*_Ex .tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`);
+if(!text) return await citel.reply(`*Uhh Please, Provide me tiktok Video Url*\n*_Ex .tiktok Your video link 🔗_*`);
 let txt = text ? text.split(" ")[0]:'';
 const ttdl =  require("tiktok-video-downloader");
 if (!txt.includes("tiktok.com")) return  citel.reply(`*Uhh Please, Give me Valid Tiktok Video Url!*`);
@@ -343,7 +343,7 @@ cmd({
             desc: "text to speech.",
             category: "downloader",
             filename: __filename,
-            use: '<Hii,this is Suhail>',
+            use: '<Hii,this is Aʙᴅᴜʟʟᴀʜ>',
         },
         async(Void, citel, text) => {
             if (!text && !citel.quoted) return citel.reply(`*Please give me Text*\n *_Example : .tts Hi,I am ProfileCorruptedError._*`);
@@ -402,16 +402,16 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-╭─┈ ⋞ 〈 Xʟɪᴄᴏɴ-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ 🦄〉 ⋟ ┈─╗
+╭─┈ ⋞ 〈 𝚉𝙰𝙷𝚁𝙴𝙴𝙻𝙰-𝙼𝙳 〉 ⋟ ┈─╗
 ﹀
 ⌲🎐 *Youtube Player* ✅
 ⌲🐉 *Title:* ${anu.title}
 ⌲🏮 *Duration:* ${anu.timestamp}
 ⌲📥 *Viewers:* ${anu.views}
 ⌲🎗 *Uploaded:* ${anu.ago}
-⌲🌊 *Author:* ${anu.author.name}
+⌲☠️ *Author:* ${anu.author.name}
 ︿
-╰───━◦○◦━◦○◦━──────╝
+╰─────────━◦○◦━◦○◦━────────╝
 ⦿ *Url* : ${anu.url}
 `,
                 footer: tlang().footer,
@@ -490,7 +490,7 @@ cmd({
 	const apkSize = parseInt(baby1[0].size);
 	if(apkSize > 100) return citel.reply(`❌ File size bigger than 150mb.`);
 	
-let result4 = ` *Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
+let result4 = ` *𝚉𝙰𝙷𝚁𝙴𝙴𝙻𝙰-𝙼𝙳 Dᴏᴡɴʟᴏᴀᴅᴇʀ*
 *Nᴀᴍᴇ* : ${baby1[0].nama}
 *Sɪᴢᴇ* :${baby1[0].size}
 *Mɪᴍᴇ* : ${baby1[0].mime}
@@ -529,7 +529,7 @@ cmd({
                 let yts = require("secktor-pack")
                 let search = await yts(text);
                 let i = search.all[1] ;
-                let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio\n*Xʟɪᴄᴏɴ271-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ*" ;
+                let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio\n*Zᴀʜʀᴇᴇʟᴀ-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ*" ;
                 Void.sendMessage(citel.chat,{image :{url : i.thumbnail}, caption :  cap });
            
            
@@ -549,7 +549,7 @@ cmd({
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}ytmp3 ${i.url}`,
-                    description: `*Suhail-MD* / ${i.timestamp}`
+                    description: `*Zᴀʜʀᴇᴇʟᴀ-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ* / ${i.timestamp}`
                 })
             }
             const sections = [
@@ -585,7 +585,7 @@ cmd({
         },
         async(Void, citel, text) => {
             let yts = require("secktor-pack");
-            if (!text) return citel.reply(`Example : ${prefix}yts WhatsApp Bot by •xʟɪᴄᴏɴ271-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•`);
+            if (!text) return citel.reply(`Example : ${prefix}yts WhatsApp Bot by •Zᴀʜʀᴇᴇʟᴀ-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•`);
             let search = await yts(text);
             let textt = "*YouTube Search*\n Result From " + text + "\n   ─────────────────── \n";
             let no = 1;
@@ -805,9 +805,9 @@ cmd({
 
 
 
-// By @•xʟɪᴄᴏɴ271-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•
-// https://wa.me/8801853262586
-// https://www.youtube.com/@suhailtechinfo0
+// By Zᴀʜʀᴇᴇʟᴀ-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•
+// https://wa.me/923212321750
+// https://www.youtube.com/@mhmodsofc
 
 
 
@@ -822,7 +822,7 @@ async(Void, citel, text) => {
 if (!text) return await citel.reply(`*_Ohh PLease, Give Me Song Name_*`);
 let search = await yts(text)
 let i = search.all[1] ;
-let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio \n*•xʟɪᴄᴏɴ271-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•*" ;
+let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio \n*•Zᴀʜʀᴇᴇʟᴀ-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•*" ;
 Void.sendMessage(citel.chat,{image :{url : i.thumbnail}, caption :  cap })
 })
 */
